@@ -1,0 +1,190 @@
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond&family=Roboto:ital,wght@0,300;0,400;1,500&display=swap');
+
+*{
+	font-family: 'EB Garamond', serif;
+	margin: 0;
+	padding: 0;
+}
+
+html{
+	font-size: 62.5%;
+}
+
+body{
+	background-image: url(img/fondoprueba.jpg);
+	background-attachment: fixed;
+}	
+
+p{
+	color: white;
+	line-height: 3rem;
+	font-size: 2.5rem;
+	margin: 0rem 8rem;
+
+}
+
+.bgSuave{
+	background-color: rgba(39, 34, 118, 0.4);
+}
+
+.bgFuerte{
+	background-color: rgba(39, 34, 118, 1.0);
+}
+
+.areas div ul {
+	display: inline-block;
+	list-style: none;
+
+}
+
+.areas div ul li:hover{
+	font-weight: 800;
+	color: white;
+}
+
+.textBold{
+	font-weight: 600;
+}
+
+.textCenter{
+	text-align: center;
+}
+
+.textRight{
+	text-align: right;
+}
+
+.textLeft{
+	text-align: left;
+}
+
+.tituloXL{
+	font-size: 4rem;
+	display: none;
+}
+
+.tituloL{
+	margin-top: 10rem;
+	font-size: 3rem;
+	padding: 5rem;
+}
+
+.tituloM{
+	font-size: 2rem;
+}
+
+.textoS{
+	color: white;
+	line-height: 2rem;
+	font-size: 1.6rem;
+}
+
+.textoM{
+	color: white;
+	line-height: 2rem;
+	font-size: 2.5rem;
+}
+
+.textWhite{
+	color: white;
+}
+
+.imgFluid{
+	display: flex;
+	justify-content: center;
+	width: 100%;
+	margin-top: 4rem;
+	margin-bottom: 3rem;
+}
+
+.googleMap{
+	width: 95%;
+	margin: 10px 30px;
+	border: 3px double black;
+}
+
+.especialidades1{
+	margin: 1rem;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+}
+
+.especialidades1 figure{
+	text-align: center;
+	width: 50rem;
+}
+
+.especialidades2{
+	margin: 1rem;
+	margin-top: 10rem;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+}
+
+.especialidades2 figure{
+	text-align: center;
+	width: 50rem;
+}
+
+.contactForm{
+	display: flex;
+	justify-content: space-between;
+	flex-flow: column wrap;
+	margin: 1rem 3rem;
+	width: 100%;
+}
+
+.botonEnviar{
+	width: 25%;
+	margin-left: 0;
+}
+
+.cajaContact{
+	display:flex;
+}
+
+.labelText{
+	color: black;
+	line-height: 2rem;
+	font-size: 1.6rem;
+	font-weight: 600;
+}
+
+.Abogado{
+	display: inline-flex;
+	justify-content: space-evenly;
+	align-items: ;
+}
+
+.Prueba div ul li{
+	line-height: 3rem;
+	font-size: 2.6rem;
+}
+
+.Prueba{
+	display: flex;
+	justify-content: space-between;
+	margin: 4rem 20rem
+}
+
+.AbogadoIcon{
+	width: 80px;
+}
+
+.practicas{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	padding-bottom: 4rem;
+}
+
+.todopracticas{
+	display: flex;
+	justify-content: space-around;
+}
+.area{
+	text-align: center;
+
+}
