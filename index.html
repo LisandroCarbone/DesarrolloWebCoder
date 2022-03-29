@@ -4,119 +4,137 @@
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>Corvalan & Asoc</title>
-	<link rel="stylesheet" href=".css">
-	<link rel="stylesheet" href=".css">
+	<link rel="stylesheet" href="untitled.css">
+	<link rel="stylesheet" href="exheadfoot.css">
 </head>
 <body>
-	<header>
+	<header class="encabezado">
 		<!-- inicia nav -->
 		<nav>
 			<a href="index.html">
 				<img src="img/Logo.png" alt="logo del estudio Corvalan">
 			</a>
-			<ol>
-				<li>
-					<a href="index.html">Home</a>
-				</li>
-				<li>
-					<a href="nosotros.html">Nosotros</a>
-				</li>
-				<li>
-					<a href="equipo.html">Equipo de Abogados</a>
-				</li>
-				<li>
-					<a href="servicios.html">Areas de trabajo</a>
-				</li>
-				<li>
-					<a href="contacto.html">Contacto</a>
-				</li>
-			</ol>
+			<div class="burger" id="burger">
+				<img src="img/youtube.png" alt="boton hamburguesa">
+			</div>
+			<div class="botonera">
+				<ol>
+					<li>
+						<a href="index.html">Home</a>
+					</li>
+					<li>
+						<a href="nosotros.html">Nosotros</a>
+					</li>
+					<li>
+						<a href="equipo.html">Equipo de Abogados</a>
+					</li>
+					<li>
+						<a href="servicios.html">Areas de trabajo</a>
+					</li>
+					<li>
+						<a href="contacto.html">Contacto</a>
+					</li>
+				</ol>
+			</div>
 		</nav>
 		<!-- termina nav -->
 	</header>
 	<main>
-		<section>
-			<div>
-				<img src="img/Logo y Nombre.png" alt="Logo completo del estudio Corvalan">
+		<div>
+			<div class="logoPpal">
+				<img src="img/Logo y Nombre.png" alt="Logo completo del estudio Corvalan" class="imgLogo">
 			</div>
 			<div>
-				<h1>Corvalan & Asoc</h1>
-				<p>Lorem ipsum dolor sit amet, consectetur adipisicing, elit. Aliquam, ut, dolor. Similique velit, at hic fugiat perspiciatis harum dolor consectetur pariatur quas quasi eos exercitationem! Officiis rem, laborum vel placeat.</p>
-				<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi rem recusandae facere porro numquam praesentium eius ex iure sunt, necessitatibus sed saepe eos incidunt ipsum, rerum, maxime in sapiente. Unde.</p>
+				<h1 class="textCenter">Corvalan & Asoc</h1>
+				<p class="textCenter">Lorem ipsum dolor sit amet, consectetur adipisicing, elit. Aliquam, ut, dolor. Similique velit, at hic fugiat perspiciatis harum dolor consectetur pariatur quas quasi eos exercitationem! Officiis rem, laborum vel placeat.</p>
+				<p class="textCenter">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+				tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+				quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+				consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+				cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+				proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Lorem, ipsum dolor, sit amet consectetur adipisicing elit. Modi nobis facilis quo placeat incidunt nesciunt commodi possimus hic officiis aliquid perspiciatis, eos doloremque sint, autem adipisci, qui, aliquam? Nemo, minus.</p>
+			</div>
+		</div>
+		<section>
+			<div class="bgDark">
+				<h2 class="textCenter">Áreas de trabajo / Especialistas en:</h2>
+			</div>
+			<div class="contArea" id="">
+				<div class="trioAreas" id=trioUno>
+					<figure>
+						<img src="img/penal.jpg" alt="" class="">
+						<figcaption class="textCenter">-Derecho Penal-</figcaption>
+						<p>Pequeño resumen sobre Derecho Penal</p>
+					</figure>
+					<figure>
+						<img src="img/genero.jpg" alt="" class="">
+						<figcaption class="textCenter">-Violencia de Genero-</figcaption>
+						<p>Pequeño resumen sobre Violencia de Genero</p>
+					</figure>
+					<figure>
+						<img src="img/transito.jpg" alt="" class="">
+						<figcaption class="textCenter">-Accidentes de Transito-</figcaption>
+						<p>Pequeño resumen sobre Accidentes de Transito</p>
+					</figure>
+				</div>
+				<div class="trioAreas" id=trioDos>
+					<figure>
+						<img src="img/sucesiones.jpg" alt="" class="">
+						<figcaption class="textCenter">-Sucesiones-</figcaption>
+						<p>Pequeño resumen sobre Sucesiones</p>
+					</figure>
+					<figure>
+						<img src="img/familia.jpg" alt="" class="">
+						<figcaption class="textCenter">-Familia / Divorcios-</figcaption>
+						<p>Pequeño resumen sobre Familia / Divorcios</p>
+					</figure>
+					<figure>
+						<img src="img/deporte.jpg" alt="" class="">
+						<figcaption class="textCenter">-Derechos del Deporte-</figcaption>
+						<p>Pequeño resumen sobre Derechos del Deporte</p>
+					</figure>
+				</div>
 			</div>
 		</section>
 		<section>
-			<div>
-				<h2>Áreas de trabajo / Especialistas en:</h2>
-				<div>
-					<figure>
-						<img src="img/penal.jpg" alt="" class="fotoperfil">
-						<figcaption class="textoM">Derecho Penal</figcaption>
-					</figure>
-					<figure>
-						<img src="img/genero.jpg" alt="" class="fotoperfil">
-						<figcaption class="textoM">Violencia de Genero</figcaption>
-					</figure>
-					<figure>
-							<img src="img/transito.jpg" alt="" class="fotoperfil">
-						<figcaption class="textoM">Accidentes de Transito</figcaption>
-					</figure>
-				</div>
-				<div>
-					<figure>
-						<img src="img/sucesiones.jpg" alt="" class="fotoperfil">
-						<figcaption>Sucesiones</figcaption>
-					</figure>
-					<figure>
-						<img src="img/familia.jpg" alt="" class="fotoperfil">
-						<figcaption>Familia / Divorcios</figcaption>
-					</figure>
-					<figure>
-						<img src="img/deporte.jpg" alt="" class="fotoperfil">
-						<figcaption>Derechos del Deporte</figcaption>
-					</figure>
-				</div>
-			</div>
-			<article>
-				<h2>Contactá con nosotros</h2>
+			<div class="bgDark">
+				<h2 class="textCenter">Contactá con nosotros</h2>
 				<form action="envio.php" method="post" id="contacto" class="">
-					<section>
 					<fieldset>
-						<div>
-							<label for="asunto" class="">Asunto</label>
-							<input type="text" placeholder="Asunto" name="asunto" id="asunto">
+						<div class="contenedor">
+							<div class="contactForm">
+								<label for="asunto" class="textWhite">Asunto</label>
+								<input type="text" placeholder="Asunto" name="asunto" id="asunto">
 
-							<label for="nombre" class="">Nombre</label>
-							<input type="text" placeholder="Lisandro" name="nombre" id="nombre">
+								<label for="nombre" class="textWhite">Nombre</label>
+								<input type="text" placeholder="Lisandro" name="nombre" id="nombre">
 
-							<label for="apellido" class="">Apellido</label>
-							<input type="text" placeholder="Carbone" name="apellido" id="apellido">
+								<label for="apellido" class="textWhite">Apellido</label>
+								<input type="text" placeholder="Carbone" name="apellido" id="apellido">
 
-							<label for="email" class="">Email</label>
-							<input type="email" placeholder="tumail@tudominio.com" name="email" id="email">
+								<label for="email" class="textWhite">Email</label>
+								<input type="email" placeholder="tumail@tudominio.com" name="email" id="email">
 							
-							<label for="tel" class="">Tel.:</label>
-							<input type="number" placeholder="11-1234-1234" name="tel" id="tel">
-						</div>
-							<div>
-								<label for="mensaje" class="">Mensaje</label>
+								<label for="tel" class="textWhite">Tel.:</label>
+								<input type="number" placeholder="11-1234-1234" name="tel" id="tel">
+							</div>
+							<div class="contactForm">
+								<label for="mensaje" class="textWhite">Mensaje</label>
 								<textarea name="comentario" id="comentario" cols="30" rows="10" placeholder="Contanos sobre tu caso"></textarea>
-							<div>			
 								<input type="submit" value="Enviar">
 							</div>
 						</div>
-					</fieldset>	
-					</section>						
+					</fieldset>							
 				</form>
-			</article>
-			<div>
-				<iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d13126.728693159479!2d-58.3652204!3d-34.6627287!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x7b1c624dbe9d2d53!2sPlaza%20Adolfo%20Alsina!5e0!3m2!1ses-419!2sar!4v1645678383223!5m2!1ses-419!2sar" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" class=""></iframe>
+			</div>
+			<div class="googleMap">
+				<iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d13126.728693159479!2d-58.3652204!3d-34.6627287!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x7b1c624dbe9d2d53!2sPlaza%20Adolfo%20Alsina!5e0!3m2!1ses!2sar!4v1647629606216!5m2!1ses!2sar" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
 			</div>
 		</section>
 	</main>
-	<footer>
-		<section>
-			<div>
+	<footer class="pie">
+		<article>
+			<div class="botonera">
 				<a href="Corvalan & Asoc.html">
 				<img src="img/Logo.png" alt="logo del estudio Corvalan">
 				</a>
@@ -124,15 +142,15 @@
 			<div>
 				<h3>Encontranos en:</h3>
 				<ul>
-					<li>Ubicacion1</li>					
-					<li>Ubicacion2</li>
+					<li class="textWhite">Ubicacion1</li>					
+					<li class="textWhite">Ubicacion2</li>
 				</ul>
 			</div>
 			<div>
 				<h3>Contactanos:</h3>
 				<ul>
-					<li>Teléfono1</li>
-					<li>Mail del estudio</li>
+					<li class="textWhite">Teléfono1</li>
+					<li class="textWhite">Mail del estudio</li>
 				</ul>
 			</div>
 			<div>
@@ -141,10 +159,10 @@
 					<img src="img/facebook.png" alt="Seguinos en Facebook" class="">				
 				</a>
 				<a href="https://instagram.com" target="_blank">
-				<img src="img/instagram.png" alt="Seguinos en Instagram" class="">
+					<img src="img/instagram.png" alt="Seguinos en Instagram" class="">
 				</a>
 			</div>
-		</section>
+		</article>
 	</footer>
 </body>
 </html>
