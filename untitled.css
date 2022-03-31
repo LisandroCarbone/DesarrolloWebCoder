@@ -35,6 +35,19 @@ body{
 	background-attachment: fixed;
 	/*background-color: #8e87f5;*/
 }
+.bgNav{
+	background-color: #272276;
+}
+
+#linkNav{
+	font-size: 1.5rem;
+	text-decoration: none;
+	color: white;	
+}
+
+#bgWhite{
+	background-color: white;
+}
 
 .botonera{
 	display: none;
